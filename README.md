@@ -35,3 +35,14 @@ Commodity Drawdowns: Copper and Gold show severe average weekly losses (-1.010% 
 Severe Equity Drawdowns: Broad equities experience steep losses. Nasdaq (QQQ) plummets with an average weekly forward return of -4.981%.
 Industrial Hard Stop: Copper drops an average of -3.724% weekly, confirming the absolute destruction of growth and cyclical demand.
 Gold as the Ultimate Safe-Haven: Gold shines during deleveraging spikes, delivering an outstanding average forward weekly return of +4.514%. This behavior highlights its role as a premier systemic insurance asset during structural liquidity crises.
+
+
+### 3. Tactical Asset Allocation Rule-of-Thumb
+
+| Composite Score Range | Liquidity Regime | Preferred Asset Exposure | Asset Classes to Avoid / Underweight |
+| :--- | :--- | :--- | :--- |
+| **>= 40** | **Strong Risk-On** | High-Beta Equities (QQQ, IWM), Industrial Metals (Copper), Credit | Long-Duration Treasuries, Cash |
+| **10 to 40** | **Risk-On** | Equities (SPY, QQQ), Corporate Bonds (HYG) | Cash, Gold |
+| **-10 to 10** | **Neutral** | Broad Equities (SPY), Gold, Copper | None (Balanced allocation) |
+| **-40 to -10** | **Defensive** | High Quality Corporate Credit (HYG), Cash | Small Caps (IWM), Cyclical Commodities |
+| **< -40** | **Deleveraging** | **Gold**, Cash, Long-Duration Treasuries | Equities (QQQ, SPY), Industrial Metals (Copper) |
