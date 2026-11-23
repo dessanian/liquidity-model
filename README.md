@@ -1,6 +1,6 @@
-# Liquidity Model
+### Liquidity Model
 
-**Methodology & System Overview**
+# Methodology & System Overview
 Before diving into the findings, here is a quick overview of what we built to construct this model:
 
 Data Ingestion: Integrated daily macro data from FRED (Fed Target Rate, EFFR, Fed Balance Sheet, Overnight Reverse Repos, Treasury General Account, and Corporate Credit Spreads) alongside market data from Yahoo Finance (VIX, Dollar Index, major currency pairs, and index ETFs).
