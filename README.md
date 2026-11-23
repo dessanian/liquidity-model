@@ -49,3 +49,17 @@ Our historical backtest (2015–2026) validates the model's structural design by
 | **-10 to 10** | **Neutral** | Broad Equities (SPY), Gold, Copper | None (Balanced allocation) |
 | **-40 to -10** | **Defensive** | High Quality Corporate Credit (HYG), Cash | Small Caps (IWM), Cyclical Commodities |
 | **< -40** | **Deleveraging** | **Gold**, Cash, Long-Duration Treasuries | Equities (QQQ, SPY), Industrial Metals (Copper) |
+
+
+### Asset Class Performance Matrix 
+<img width="1088" height="590" alt="image" src="https://github.com/user-attachments/assets/c6028306-47c6-4023-b865-
+  c1f1b193f7ee" />
+
+### Per Dollar Backtest vs S&P 500 
+<img width="1187" height="590" alt="image" src="https://github.com/user-attachments/assets/7c476cdb-a7a4-4382-bb61-7a91c0f8d404" />
+
+### Risk Backtest Showing Max Drawdown 
+<img width="1188" height="590" alt="image" src="https://github.com/user-attachments/assets/d8600bb5-948e-423b-af2a-221691349b36" />
+
+### Distribution of Composite Liquidity Scores and Regime Thresholds 
+<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/853f4641-f815-4850-ac49-03acb47236d9" />
