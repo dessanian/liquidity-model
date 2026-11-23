@@ -40,7 +40,7 @@ Our historical backtest (2015–2026) validates the model's structural design by
 * Gold as the Ultimate Safe-Haven: Gold shines during deleveraging spikes, delivering an outstanding average forward weekly return of +4.514%. This behavior highlights its role as a premier systemic insurance asset during structural liquidity crises.
 
 
-## 3. Tactical Asset Allocation Rule-of-Thumb
+## Tactical Asset Allocation Rule-of-Thumb
 
 | Composite Score Range | Liquidity Regime | Preferred Asset Exposure | Asset Classes to Avoid / Underweight |
 | :--- | :--- | :--- | :--- |
@@ -49,6 +49,32 @@ Our historical backtest (2015–2026) validates the model's structural design by
 | **-10 to 10** | **Neutral** | Broad Equities (SPY), Gold, Copper | None (Balanced allocation) |
 | **-40 to -10** | **Defensive** | High Quality Corporate Credit (HYG), Cash | Small Caps (IWM), Cyclical Commodities |
 | **< -40** | **Deleveraging** | **Gold**, Cash, Long-Duration Treasuries | Equities (QQQ, SPY), Industrial Metals (Copper) |
+
+
+### Optimal Asset Allocation Guide
+
+Based on historical backtest returns and liquidity-transmission mechanisms, here is the structured strategic guide for portfolio allocation across each of our five mapped regimes:
+
+| Liquidity Regime | Primary Objective | Preferred Long Assets | Hedges / Underweights | Key Macro Rationale |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Strong Risk-On** | Aggressive Capital Growth | High-Beta Equities (**QQQ**, **IWM**), Industrial Metals (**Copper**), Emerging Markets | Cash, Gold, Long-Duration Treasuries | Abundant fiat liquidity and low spreads drive capital to the farthest corners of the risk curve. |
+| **2. Risk-On** | Core Equity Growth | Broad Equities (**SPY**, **QQQ**), High-Yield Corporate Credit (**HYG**) | Short Duration Cash, Gold | Positive systemic liquidity supports earnings and compresses corporate spreads. |
+| **3. Neutral** | Balanced / Relative Value | Multi-Asset (Balanced **SPY**), **Gold**, Trend-Following Commodities | None (Benchmark target weights) | Liquidity conditions are balanced; asset performance is driven primarily by idiosyncratic fundamentals. |
+| **4. Defensive** | Capital Preservation & Yield | Cash, High-Quality Corporate Bonds, Long-Duration Treasuries | Small Caps (**IWM**), Cyclical Commodities | Net liquidity begins to drain; spreads widen slightly, making risk-taking less mathematically favorable. |
+| **5. Deleveraging** | Crisis Risk Mitigation | **Gold**, Cash Reserves, Overnight Treasury Bills | Broad Equities (**SPY**, **QQQ**), Copper, Leveraged Loans | Forced liquidations dominate. High risk of systemic contraction. Gold thrives on flight-to-safety flows and expectations of eventual central bank intervention. |
+
+### Dynamic Allocation Backtest and Drawdown Analysis
+
+Let's implement a dynamic quantitative strategy based on our **Optimal Asset Allocation Guide** rules and calculate its maximum drawdown compared to a passive S&P 500 Buy-and-Hold strategy.
+
+#### Strategy Allocation Rules:
+1. **Strong Risk-On**: 100% Nasdaq (QQQ)
+2. **Risk-On**: 100% S&P 500 (SPY)
+3. **Neutral**: 60% S&P 500 (SPY) + 40% Gold (GOLD)
+4. **Defensive**: 100% Cash / High Yield Bonds (HYG)
+5. **Deleveraging**: 100% Gold (GOLD)
+
+We will align the regime score of each week to determine the asset allocation for the *following* week (avoiding look-ahead bias), calculate the cumulative returns, and plot the rolling drawdowns.
 
 
 
