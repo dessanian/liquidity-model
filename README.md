@@ -89,3 +89,22 @@ We will align the regime score of each week to determine the asset allocation fo
 
 ### Asset Class Performance Matrix 
 <img width="1088" height="590" alt="image" src="https://github.com/user-attachments/assets/4ed1fffd-92d0-43a9-bf4e-7cdcea2c19a3" />
+
+
+### Stress Testing Across Key Decades (2000 - Present)
+
+To thoroughly evaluate the strategy through different economic cycles (the 2000 Dot-com crash, the 2008 Global Financial Crisis, the 2020 pandemic crash, and the 2022 inflationary tightening), we will:
+1. Re-fetch all FRED and Yahoo Finance data starting from **January 1, 2000**.
+2. Recompute our weekly rolling 1-year Z-scores and Composite Liquidity Score over this complete history.
+3. Split the data into three historical sub-periods: **2000–2010**, **2010–2020**, and **2020–Present**.
+4. Run independent performance and maximum drawdown analyses on all three sub-periods.
+
+
+## 2000 - 2010 Results 
+<img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/e0c5b0b0-9ac9-4410-9e92-7a89fa6b642a" />
+
+## 2010 - 2020 Results 
+<img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/e5fcc5c4-7069-412a-acc0-f8c01a3b7023" />
+
+## 2020 - Present 
+<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/18b2e115-67c8-4597-94d5-e2fb68c5c246" />
